@@ -1,0 +1,38 @@
+# Core AutoGen and AI dependencies
+pyautogen>=0.2.0
+google-generativeai>=0.3.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Data processing and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database and logging
+sqlite3  # Built-in Python module, but listed for clarity
+
+# Web scraping and content processing
+langchain-community>=0.0.20
+praw>=7.7.0  # Reddit API wrapper
+
+# HTTP requests and web utilities
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Type hints and annotations
+typing-extensions>=4.5.0
+
+# Optional: Enhanced functionality
+matplotlib>=3.7.0  # For potential chart generation in stock analysis
+plotly>=5.15.0     # Alternative plotting library
+yfinance>=0.2.0    # For actual stock data in 2waychat.py example
+
+# Development and testing (optional)
+pytest>=7.4.0
+black>=23.0.0      # Code formatting
+flake8>=6.0.0      # Linting
+
+# Note: Some packages may have additional system dependencies
+# For Docker usage (if needed):
+# docker>=6.1.0
